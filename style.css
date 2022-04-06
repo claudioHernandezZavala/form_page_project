@@ -1,0 +1,19 @@
+body{
+    background-image: url(./forest-7031441.jpg);
+}
+#form-container{
+    background-color: aliceblue;
+    width: 45%;
+    height: 89vh;
+    margin: auto;
+    border-radius: 25px;
+    padding: 45px;
+
+}
+input{
+    border-radius: 25px;   
+    height: 25px;
+}
+#number{
+    width: 180px;
+}

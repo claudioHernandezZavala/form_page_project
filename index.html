@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="stylesheet" href="./style.css" type="text/css" />
+  </head>
+
+  <body>
+    <header>
+      <h1 id="title">BIENVENIDO A ICMA</h1>
+    </header>
+    
+      <p id="description">Please provide us with some information so we can help you</p>
+ 
+
+    <div id="form-container">
+      <h2>Give us more information about you</h2>
+      <form action="" id="survey-form">
+        <label for="name" id="name-label" >Type your name</label>
+        <input type="text" id="name" placeholder="Nombre" name="Name" required />
+        <br />
+        <br />
+        <label for="email" id="email-label"
+          >Type your email
+          <input  type="email" id="email" placeholder="Email" name="email" required /></label>
+        <br />
+        <br />
+        <label for="number" id="number-label"
+          >Type yout number
+          <input
+            type="number"
+            id="number"
+            min="1"
+            max="15"
+            name="number"
+            placeholder="Number"
+            required
+        /></label>
+        <br />
+        <br />
+        <label for="dropdown">Choose your required service</label>
+        <select name="Required service" id="dropdown">
+          <option value="Web development">
+            Web development for my business
+          </option>
+          <option value="Mobile app">Mobile app for my business</option>
+          <option value="">Website and app for my business</option>
+        </select>
+        <br />
+        <br />
+        <label for="male">Male</label>
+        <input type="radio" name="sex" id="male" value="male">
+        <label for="female">Female</label>
+        <input type="radio" name="sex" id="female" value="female">
+        <br>
+        <label for="">Select the urgency of your inquiry</label>
+        <br />
+     
+        <label for=""
+          ><input type="checkbox" name="urgency" value="high" />High
+        </label>
+        <label for="">
+          <input type="checkbox" name="urgency" value="normal" />Normal
+        </label>
+        <br />
+
+        <textarea
+          name=""
+          id=""
+          cols="30"
+          rows="10"
+          placeholder="Extra information you need us to review"
+        ></textarea>
+        <br>
+        <button type="submit" id="submit">Submit inquiry</button>
+      </form>
+    </div>
+  </body>
+</html>
